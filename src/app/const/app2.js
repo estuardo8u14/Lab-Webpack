@@ -1,1 +1,1 @@
-const switcher = document.querySelector('.btn1');
+module.exports = document.querySelector('.btn1');

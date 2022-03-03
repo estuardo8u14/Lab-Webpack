@@ -2,8 +2,8 @@ import {app2} from "./const/app2";
 
 'use strict'
 
+//const switcher = require("./const/app2");
 const switcher = document.querySelector('.btn1');
-
 export const startApp = () => {
     switcher.addEventListener('click', function() {
         document.body.classList.toggle('intro-img1')
